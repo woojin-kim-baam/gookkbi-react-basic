@@ -68,7 +68,7 @@ export default function Properties() {
       <Article title={article.title} subTitle={article.subTitle} contents={article.contents} />
       <Article {...article} />
       <Child getTitle={getTitle}>
-        <p>익숙한 속성...</p>
+        <p>익숙한 속성...</p> {/*이걸 children으로 전달 */}
       </Child>
     </div>
   );

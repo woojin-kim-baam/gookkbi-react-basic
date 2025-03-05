@@ -45,7 +45,7 @@ function ThreeComponent({ number }: Prop) {
   );
 }
 
-// 논리 연사자를 이용한 조건부 렌더링
+// 논리 연산자를 이용한 조건부 렌더링
 // - return 내부에서 조건에 따라 렌더링하고자 할 때 사용 (보여줄지 말지)
 function LogicComponent({ number }: Prop) {
   // 짝수면 해당 값은 짝수입니다 라는 h2 요소를 렌더링하게 함
